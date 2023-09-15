@@ -1,0 +1,56 @@
+[
+  {
+    "ref": "ans_84252828-6388-401e-8d50-9b6775b51b74",
+    "keyword": "key_d164977d-819b-461a-88ff-1a64f489b540",
+    "answer": "cuanto es 2 + 3??",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": true,
+      "child": null,
+      "delay": 0,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "810037eafa1ed9b9660ab2bf628969ff",
+    "from": "51986154999"
+  },
+  {
+    "ref": "f2210b91-d9ff-467e-8c7f-f8386f6bc897",
+    "keyword": "810037eafa1ed9b9660ab2bf628969ff",
+    "answer": "5",
+    "options": {},
+    "from": "51986154999",
+    "refSerialize": "d2b414a4bc0b3490276097c7513b4c8c"
+  },
+  {
+    "ref": "99e266f1-7b8b-4e74-a28a-508d7435eda5",
+    "answer": "Bien hecho Paul Cruz te ganaste una coreana",
+    "options": {
+      "media": "./video.mp4",
+      "buttons": [],
+      "capture": false,
+      "delay": 0
+    },
+    "from": "51986154999",
+    "refSerialize": "a9c64e0a27a4442be5cb1247e4725088"
+  },
+  {
+    "ref": "ans_25e1c0e6-7cdb-4178-b81f-b3f9e9951d66",
+    "keyword": "ans_84252828-6388-401e-8d50-9b6775b51b74",
+    "answer": "xdddd",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "child": null,
+      "delay": 0,
+      "nested": [],
+      "keyword": {},
+      "callback": false
+    },
+    "refSerialize": "648adb2a1c7e6ab5eb5f8eb512ffdbf9",
+    "from": "51986154999"
+  }
+]
