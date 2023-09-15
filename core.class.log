@@ -1,0 +1,72 @@
+[handleMsg]:  {
+  key: {
+    remoteJid: '51986154999@s.whatsapp.net',
+    fromMe: false,
+    id: '3EB0F8DB36C367888357D1',
+    participant: undefined
+  },
+  messageTimestamp: 1694758366,
+  pushName: 'Paul Cruz',
+  broadcast: false,
+  message: Message {
+    conversation: 'hola',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'hola',
+  from: '51986154999'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_84252828-6388-401e-8d50-9b6775b51b74',
+  keyword: 'key_d164977d-819b-461a-88ff-1a64f489b540',
+  answer: 'cuanto es 2 + 3??',
+  options: {
+    media: null,
+    buttons: [],
+    capture: true,
+    child: null,
+    delay: 0,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: '810037eafa1ed9b9660ab2bf628969ff'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '51986154999@s.whatsapp.net',
+    fromMe: false,
+    id: '3EB04558818A0AE979E113',
+    participant: undefined
+  },
+  messageTimestamp: 1694758368,
+  pushName: 'Paul Cruz',
+  broadcast: false,
+  message: Message {
+    conversation: '5',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: '5',
+  from: '51986154999'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_25e1c0e6-7cdb-4178-b81f-b3f9e9951d66',
+  keyword: 'ans_84252828-6388-401e-8d50-9b6775b51b74',
+  answer: 'xdddd',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: '648adb2a1c7e6ab5eb5f8eb512ffdbf9'
+}
