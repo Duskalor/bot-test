@@ -6,7 +6,7 @@ const waykiSrapper = async () => {
   console.log('wayki1');
   const datos = [];
   const browser = await launch({
-    headless: 'new',
+    executablePath: '/usr/bin/google-chrome',
     args: [
       '--ignore-certificate-errors',
       '--no-sandbox',
