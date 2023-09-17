@@ -5,7 +5,11 @@ const URL = 'https://waykistore.pe/lista-productos.php?oferta=SI';
 const waykiSrapper = async () => {
   console.log('wayki1');
   const datos = [];
-  const browser = await launch();
+  const browser = await launch({
+    ignoreDefaultArgs: ['--disable-extensions'],
+    slowMo: 10,
+    args: ['--no-sandbox', '--disable-setuid-sandbox', '--disable-cache'],
+  });
   console.log('wayki2');
   const page = await browser.newPage();
   await page.setViewport({
