@@ -6,17 +6,25 @@ const waykiSrapper = async () => {
   console.log('wayki1');
   const datos = [];
   const browser = await launch({
-    ignoreDefaultArgs: ['--disable-extensions'],
-    slowMo: 10,
-    args: ['--no-sandbox', '--disable-setuid-sandbox', '--disable-cache'],
+    headless: 'new',
+    args: [
+      '--ignore-certificate-errors',
+      '--no-sandbox',
+      '--disable-setuid-sandbox',
+      '--window-size=1920,1080',
+      '--disable-accelerated-2d-canvas',
+      '--disable-gpu',
+    ],
+    ignoreHTTPSErrors: true,
   });
-  console.log('wayki2');
+
   const page = await browser.newPage();
-  await page.setViewport({
-    width: 1640,
-    height: 880,
-    deviceScaleFactor: 1,
-  });
+  console.log('wayki2');
+  // await page.setViewport({
+  //   width: 1640,
+  //   height: 880,
+  //   deviceScaleFactor: 1,
+  // });
 
   await page.goto(URL);
   await page.waitForSelector('.product-wrapper');
