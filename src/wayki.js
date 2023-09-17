@@ -3,7 +3,7 @@ const { launch } = require('puppeteer');
 const URL = 'https://waykistore.pe/lista-productos.php?oferta=SI';
 
 const waykiSrapper = async () => {
-  console.log('wayki');
+  console.log('wayki1');
   const datos = [];
   const browser = await launch({ headless: 'new' });
   const page = await browser.newPage();
@@ -12,11 +12,13 @@ const waykiSrapper = async () => {
     height: 880,
     deviceScaleFactor: 1,
   });
+  console.log('wayki2');
   await page.goto(URL);
   await page.waitForSelector('.product-wrapper');
 
   await new Promise((resolve) => setTimeout(resolve, 2000));
   const alldata = await page.$$('.product-wrap .product');
+  console.log('wayki3');
   for (const data of alldata) {
     const nombre = await data.$eval(
       '.product-name a',
@@ -37,6 +39,7 @@ const waykiSrapper = async () => {
     };
     datos.push(item);
   }
+  console.log('wayki4');
   browser.close();
   return datos;
 };
