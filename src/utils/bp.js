@@ -2,6 +2,7 @@ const BlackPink = {
   jennie: [
     'https://media.vogue.mx/photos/62d7057bc2a76d1a5917f7d0/1:1/w_2000,h_2000,c_limit/jennie-kim.jpg',
     'https://i.pinimg.com/736x/02/fb/4f/02fb4fe388ef0142298278b86c6add75.jpg',
+    'https://static.wikia.nocookie.net/yg_family/images/9/96/Jenni.jpg/revision/latest?cb=20201005230446&path-prefix=es',
   ],
   lisa: [
     'https://i.pinimg.com/1200x/45/0f/2c/450f2c0442144ab315cc45ec9aa9a22f.jpg',

@@ -1,0 +1,176 @@
+[handleMsg]:  {
+  key: {
+    remoteJid: '51986154999@s.whatsapp.net',
+    fromMe: false,
+    id: 'F61234CE908371149A7F3F59E96BF251',
+    participant: undefined
+  },
+  messageTimestamp: 1694937709,
+  pushName: 'Paul Cruz',
+  broadcast: false,
+  message: Message {
+    conversation: 'Hola',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'Hola',
+  from: '51986154999'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_50033bff-de79-4795-bbf4-a60abd8b6c26',
+  keyword: 'key_eceb2538-94c8-4fd1-b310-06efa4cfa63f',
+  answer: '__call_action__',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: '5bd047cd481d1f1e38904f6279bfac96'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_67c3141f-057e-4af7-947e-c8ec03a5ed6e',
+  keyword: 'ans_50033bff-de79-4795-bbf4-a60abd8b6c26',
+  answer: '*1.* Discos Solidos\n*2.* Ofertas\n*3.* Una Coreana Random',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    nested: [ [Object], [Object], [Object], [Object], [Object], [Object] ],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: '3f78212cb2fe565cf5665ab45907ecc5'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '51986154999@s.whatsapp.net',
+    fromMe: false,
+    id: '9E8829B165D6625B005E7AFECE07D978',
+    participant: undefined
+  },
+  messageTimestamp: 1694937716,
+  pushName: 'Paul Cruz',
+  broadcast: false,
+  message: Message {
+    conversation: '3',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: '3',
+  from: '51986154999'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_0661c63a-5ea4-4783-8b9f-33002e40d6fb',
+  keyword: 'key_dfa3e4f5-c6a2-47d1-a1f5-12dba094dc21',
+  answer: '__call_action__',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: '68021f7636fd0c8e2250290a9947b94c'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '51986154999@s.whatsapp.net',
+    fromMe: false,
+    id: '5B8CF1C0E49F253E0298942F7CAEE27A',
+    participant: undefined
+  },
+  messageTimestamp: 1694937721,
+  pushName: 'Paul Cruz',
+  broadcast: false,
+  message: Message {
+    conversation: 'De',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'De',
+  from: '51986154999'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_50033bff-de79-4795-bbf4-a60abd8b6c26',
+  keyword: 'key_eceb2538-94c8-4fd1-b310-06efa4cfa63f',
+  answer: '__call_action__',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: '5bd047cd481d1f1e38904f6279bfac96'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_67c3141f-057e-4af7-947e-c8ec03a5ed6e',
+  keyword: 'ans_50033bff-de79-4795-bbf4-a60abd8b6c26',
+  answer: '*1.* Discos Solidos\n*2.* Ofertas\n*3.* Una Coreana Random',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    nested: [ [Object], [Object], [Object], [Object], [Object], [Object] ],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: '3f78212cb2fe565cf5665ab45907ecc5'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '51986154999@s.whatsapp.net',
+    fromMe: false,
+    id: 'A5A05E388E2952E209663B33300E1AD8',
+    participant: undefined
+  },
+  messageTimestamp: 1694937723,
+  pushName: 'Paul Cruz',
+  broadcast: false,
+  message: Message {
+    conversation: '3',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: '3',
+  from: '51986154999'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_0661c63a-5ea4-4783-8b9f-33002e40d6fb',
+  keyword: 'key_dfa3e4f5-c6a2-47d1-a1f5-12dba094dc21',
+  answer: '__call_action__',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: '68021f7636fd0c8e2250290a9947b94c'
+}
