@@ -39,9 +39,9 @@ const flowDiscos = addKeyword('1').addAction(async (ctx, { flowDynamic }) => {
   flowDynamic('generando datos.....');
   console.log('aqui');
   const datos = await deltronSrapper();
-  console.log(datos);
+  // console.log(datos);
   datos.forEach(async (item, i) => {
-    console.log('item', i + 1);
+    // console.log('item', i + 1);
     const nombre = item.nombre.slice(0, 20).replace(/ /g, '');
     axios({
       httpsAgent,
@@ -82,11 +82,12 @@ const flowDiscos = addKeyword('1').addAction(async (ctx, { flowDynamic }) => {
 const flowOfertas = addKeyword('2').addAction(async (ctx, { flowDynamic }) => {
   flowDynamic('obteniendo datos.....');
   const ofertas = await waykiSrapper();
+  console.log(ofertas);
   const filterName = 'LAPTOP';
   const filterItems = ofertas.filter((item) =>
     item.nombre.includes(filterName)
   );
-  console.log(ofertas.length);
+  // console.log(ofertas.length);
   for (const oferta of filterItems) {
     flowDynamic({
       body: [

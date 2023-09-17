@@ -3,6 +3,7 @@ const { launch } = require('puppeteer');
 const URL = 'https://waykistore.pe/lista-productos.php?oferta=SI';
 
 const waykiSrapper = async () => {
+  console.log('wayki');
   const datos = [];
   const browser = await launch({ headless: 'new' });
   const page = await browser.newPage();

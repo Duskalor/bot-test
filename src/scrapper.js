@@ -6,7 +6,7 @@ const URL =
 
 const deltronSrapper = async () => {
   const datos = [];
-  const browser = await launch({ headless: 'new' });
+  const browser = await launch({ headless: false });
   const page = await browser.newPage();
   await page.setViewport({
     width: 1640,
@@ -30,6 +30,7 @@ const deltronSrapper = async () => {
     const item = { nombre, url: `https://www.deltron.com.pe/${url}`, img };
     datos.push(item);
   }
+  browser.close();
   return datos;
 };
 
