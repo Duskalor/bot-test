@@ -1,0 +1,88 @@
+[handleMsg]:  {
+  key: {
+    remoteJid: '51986154999@s.whatsapp.net',
+    fromMe: false,
+    id: 'F34D1D93A9725CBAA8E5A096CEC98616',
+    participant: undefined
+  },
+  messageTimestamp: 1694968856,
+  pushName: 'Paul Cruz',
+  broadcast: false,
+  message: Message {
+    conversation: 'F',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'F',
+  from: '51986154999'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_fa066cc5-1c38-4dec-9fbc-9a6340c9b0ff',
+  keyword: 'key_36acbd41-88b7-4d9a-984c-adddb1352b7c',
+  answer: '__call_action__',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: '6c9f510ad87cfbcf84c51eca73b5c8af'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_73f47661-95e3-45d6-be7e-ef5f6f065eed',
+  keyword: 'ans_fa066cc5-1c38-4dec-9fbc-9a6340c9b0ff',
+  answer: '*1.* Discos Solidos\n*2.* Ofertas\n*3.* Una Coreana Random',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    nested: [ [Object], [Object], [Object], [Object], [Object], [Object] ],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: 'afdcf1c7fa34824e1a153934531b55cc'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '51986154999@s.whatsapp.net',
+    fromMe: false,
+    id: '77E05CBC6498159B6690CF8D678D0F2F',
+    participant: undefined
+  },
+  messageTimestamp: 1694968860,
+  pushName: 'Paul Cruz',
+  broadcast: false,
+  message: Message {
+    conversation: '2',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: '2',
+  from: '51986154999'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_b56ed284-70d8-476f-86a1-1be46b848510',
+  keyword: 'key_00839c94-b638-4ce8-9628-c189453d672d',
+  answer: '__call_action__',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: '9eff87ca1873b17a88581c966b58083e'
+}
