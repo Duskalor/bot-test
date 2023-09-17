@@ -6,13 +6,14 @@ const waykiSrapper = async () => {
   console.log('wayki1');
   const datos = [];
   const browser = await launch();
-  const page = await browser.newPage();
-  // await page.setViewport({
-  //   width: 1640,
-  //   height: 880,
-  //   deviceScaleFactor: 1,
-  // });
   console.log('wayki2');
+  const page = await browser.newPage();
+  await page.setViewport({
+    width: 1640,
+    height: 880,
+    deviceScaleFactor: 1,
+  });
+
   await page.goto(URL);
   await page.waitForSelector('.product-wrapper');
 
