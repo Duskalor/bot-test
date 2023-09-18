@@ -1,15 +1,19 @@
-FROM node:18-bullseye as bot
+# 1. Utiliza la imagen con Chromium incluido
+FROM alekzonder/puppeteer:latest as bot
 
-
-RUN apk add -U --no-cache --allow-untrusted udev ttf-freefont chromium git
-ENV PUPPETEER_SKIP_CHROMIUM_DOWNLOAD true
-ENV CHROMIUM_PATH /usr/bin/chromium-browser
-  
 WORKDIR /app
+
+# 2. Copia los archivos del proyecto
 COPY package*.json ./
-RUN npm i
 COPY . .
+
+# 3. Instala las dependencias de tu aplicación
+RUN npm install
+
+# Define las variables de entorno
 ARG RAILWAY_STATIC_URL
 ARG PUBLIC_URL
 ARG PORT
+
+# 4. Define el comando para ejecutar tu aplicación
 CMD ["npm", "start"]
