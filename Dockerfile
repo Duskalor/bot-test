@@ -17,7 +17,8 @@ RUN apt-get update && apt-get install gnupg wget -y && \
   
 WORKDIR /app
 COPY package*.json ./
-RUN npm i
+# RUN npm i
+RUN /bin/sh -c npm i
 COPY . .
 ARG RAILWAY_STATIC_URL
 ARG PUBLIC_URL
