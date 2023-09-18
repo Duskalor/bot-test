@@ -1,7 +1,7 @@
-# FROM node:18-bullseye as bot
+FROM node:18-bullseye as bot
 
 
-FROM node:slim
+# FROM node:slim
 
 # We don't need the standalone Chromium
 ENV PUPPETEER_SKIP_CHROMIUM_DOWNLOAD true
@@ -17,8 +17,7 @@ RUN apt-get update && apt-get install gnupg wget -y && \
   
 WORKDIR /app
 COPY package*.json ./
-# RUN npm i
-RUN /bin/sh -c npm i
+RUN npm i
 COPY . .
 ARG RAILWAY_STATIC_URL
 ARG PUBLIC_URL
