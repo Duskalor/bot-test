@@ -1,4 +1,4 @@
-FROM node:18-bullseye as bot
+FROM node:18 as bot
 
 
 ENV PUPPETEER_SKIP_CHROMIUM_DOWNLOAD true
