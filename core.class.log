@@ -1,0 +1,93 @@
+[handleMsg]:  {
+  key: {
+    remoteJid: '51986154999@s.whatsapp.net',
+    fromMe: false,
+    id: '51FAFA7151854A34AD95A1E8E1D68D7E',
+    participant: undefined
+  },
+  messageTimestamp: 1695017586,
+  pushName: 'Paul Cruz',
+  broadcast: false,
+  message: Message {
+    conversation: 'Hola',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'Hola',
+  from: '51986154999'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_0f2a3873-1991-4ce5-b0e0-414b9c2627b4',
+  keyword: 'key_3186b57d-e4df-4b77-8e52-a7402aa0a44c',
+  answer: '__call_action__',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: 'f55cbb469fb8dbf0d007566e6399d9a6'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_e48b37b9-8478-4818-a74d-478ccdb49545',
+  keyword: 'ans_0f2a3873-1991-4ce5-b0e0-414b9c2627b4',
+  answer: '*1.* Discos Solidos\n*2.* Ofertas\n*3.* Una Coreana Random',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    nested: [ [Object], [Object], [Object], [Object], [Object], [Object] ],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: 'dcf2da2870dd39158eaa76c46971ac81'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '51986154999@s.whatsapp.net',
+    fromMe: false,
+    id: 'DB419BD21DAE1961D306C9885D1F6F43',
+    participant: undefined
+  },
+  messageTimestamp: 1695017589,
+  pushName: 'Paul Cruz',
+  broadcast: false,
+  message: Message {
+    conversation: '2',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: '2',
+  from: '51986154999'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_f85f18b7-aae8-43e6-a1ff-f01b2c459b7c',
+  keyword: 'key_1e6195a5-574f-40b3-ae0b-c7616fb8fe6a',
+  answer: '__call_action__',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: '72a60022e6ec129da149fdc8e19a74e7'
+}
+Error al encolar: Failed to launch the browser process! spawn /usr/bin/google-chrome ENOENT
+
+
+TROUBLESHOOTING: https://pptr.dev/troubleshooting
+
