@@ -6,7 +6,7 @@ const waykiSrapper = async () => {
   const datos = [];
   const browser = await launch({
     headless: 'new',
-    // executablePath: '/usr/bin/google-chrome',
+    executablePath: '/usr/bin/google-chrome',
   });
 
   const page = await browser.newPage();
