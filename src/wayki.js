@@ -4,12 +4,8 @@ const URL = 'https://waykistore.pe/lista-productos.php?oferta=SI';
 
 const waykiSrapper = async () => {
   const datos = [];
-  const browser = await launch({
-    headless: 'new',
-    // executablePath: process.env.CHROMIUM_PATH,
-    // args: ['--no-sandbox'],
-  });
-
+  console.log('test1');
+  const browser = await launch();
   const page = await browser.newPage();
   await page.setViewport({
     width: 1640,

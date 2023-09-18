@@ -2,25 +2,25 @@
   key: {
     remoteJid: '51986154999@s.whatsapp.net',
     fromMe: false,
-    id: '51FAFA7151854A34AD95A1E8E1D68D7E',
+    id: '8897F6069B6438D89B80DECB788FB561',
     participant: undefined
   },
-  messageTimestamp: 1695017586,
+  messageTimestamp: 1695022758,
   pushName: 'Paul Cruz',
   broadcast: false,
   message: Message {
-    conversation: 'Hola',
+    conversation: 'F',
     messageContextInfo: MessageContextInfo {
       deviceListMetadata: [DeviceListMetadata],
       deviceListMetadataVersion: 2
     }
   },
-  body: 'Hola',
+  body: 'F',
   from: '51986154999'
 }
 [QUEUE_SE_ENVIO]:  {
-  ref: 'ans_0f2a3873-1991-4ce5-b0e0-414b9c2627b4',
-  keyword: 'key_3186b57d-e4df-4b77-8e52-a7402aa0a44c',
+  ref: 'ans_df59dca4-f007-4dcf-aa6b-8332147fca33',
+  keyword: 'key_b5db3e58-ab83-4782-95e2-1c0c5d58ea18',
   answer: '__call_action__',
   options: {
     media: null,
@@ -32,11 +32,11 @@
     keyword: {},
     callback: true
   },
-  refSerialize: 'f55cbb469fb8dbf0d007566e6399d9a6'
+  refSerialize: '7829f75d878a2c0483fbc91c8efc0a65'
 }
 [QUEUE_SE_ENVIO]:  {
-  ref: 'ans_e48b37b9-8478-4818-a74d-478ccdb49545',
-  keyword: 'ans_0f2a3873-1991-4ce5-b0e0-414b9c2627b4',
+  ref: 'ans_d81672bb-5343-4d63-bfb5-b86f9ac4dd72',
+  keyword: 'ans_df59dca4-f007-4dcf-aa6b-8332147fca33',
   answer: '*1.* Discos Solidos\n*2.* Ofertas\n*3.* Una Coreana Random',
   options: {
     media: null,
@@ -48,16 +48,16 @@
     keyword: {},
     callback: false
   },
-  refSerialize: 'dcf2da2870dd39158eaa76c46971ac81'
+  refSerialize: 'a42de15fff58682c0835bf0c3423e5dd'
 }
 [handleMsg]:  {
   key: {
     remoteJid: '51986154999@s.whatsapp.net',
     fromMe: false,
-    id: 'DB419BD21DAE1961D306C9885D1F6F43',
+    id: '39968F6396346153F64E97D08E7C223B',
     participant: undefined
   },
-  messageTimestamp: 1695017589,
+  messageTimestamp: 1695022761,
   pushName: 'Paul Cruz',
   broadcast: false,
   message: Message {
@@ -71,8 +71,8 @@
   from: '51986154999'
 }
 [QUEUE_SE_ENVIO]:  {
-  ref: 'ans_f85f18b7-aae8-43e6-a1ff-f01b2c459b7c',
-  keyword: 'key_1e6195a5-574f-40b3-ae0b-c7616fb8fe6a',
+  ref: 'ans_1400ce7f-4ad8-4352-9656-0933127377c2',
+  keyword: 'key_024ab335-40b6-4c0d-afac-8b7d6b325307',
   answer: '__call_action__',
   options: {
     media: null,
@@ -84,10 +84,5 @@
     keyword: {},
     callback: true
   },
-  refSerialize: '72a60022e6ec129da149fdc8e19a74e7'
+  refSerialize: '7cfda38f2ca9a46bd95016216714829d'
 }
-Error al encolar: Failed to launch the browser process! spawn /usr/bin/google-chrome ENOENT
-
-
-TROUBLESHOOTING: https://pptr.dev/troubleshooting
-
