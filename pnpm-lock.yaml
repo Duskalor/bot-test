@@ -6,22 +6,22 @@ settings:
 
 dependencies:
   '@bot-whatsapp/bot':
-    specifier: latest
+    specifier: ^0.1.32
     version: 0.1.32
   '@bot-whatsapp/cli':
-    specifier: latest
+    specifier: ^0.1.32
     version: 0.1.32
   '@bot-whatsapp/database':
-    specifier: latest
+    specifier: ^0.1.32
     version: 0.1.32
   '@bot-whatsapp/portal':
-    specifier: latest
+    specifier: ^0.1.32
     version: 0.1.32
   '@bot-whatsapp/provider':
-    specifier: latest
+    specifier: ^0.1.32
     version: 0.1.32
   '@whiskeysockets/baileys':
-    specifier: ^6.4.0
+    specifier: ^6.4.1
     version: 6.4.1
   axios:
     specifier: ^1.5.0
@@ -36,8 +36,8 @@ dependencies:
     specifier: ^21.2.1
     version: 21.2.1
   wa-sticker-formatter:
-    specifier: 4.3.2
-    version: 4.3.2
+    specifier: 4.4.4
+    version: 4.4.4
 
 devDependencies:
   eslint-config-prettier:
@@ -4964,8 +4964,8 @@ packages:
     engines: {node: '>=0.10.48'}
     dev: true
 
-  /wa-sticker-formatter@4.3.2:
-    resolution: {integrity: sha512-PGSHmIXn20yds3t1bbTXMw/rayjoiDI7XOuYr6b9ZuqKN0JWH75LtF2a/KXZ2ePfjDPTGOzkSH70JaAfEModeQ==}
+  /wa-sticker-formatter@4.4.4:
+    resolution: {integrity: sha512-tl2tXlu7HEs630+1LcJsdavNGEysyQV7EIe/tFsPJCEd2jteG0nGouWNUglUEjW+bDCZGXw9VpJgUtwVGIKr8w==}
     dependencies:
       axios: 0.21.4
       file-type: 16.5.4

@@ -82,7 +82,7 @@ const flowDiscos = addKeyword('1').addAction(async (ctx, { flowDynamic }) => {
 const flowOfertas = addKeyword('2').addAction(async (ctx, { flowDynamic }) => {
   flowDynamic('obteniendo datos.....');
   const ofertas = await waykiSrapper();
-  console.log(ofertas);
+  // console.log(ofertas);
   const filterName = 'LAPTOP';
   const filterItems = ofertas.filter((item) =>
     item.nombre.includes(filterName)
