@@ -106,8 +106,8 @@ const flowCoreana = addKeyword('3').addAction(async (ctx, { flowDynamic }) => {
 
   const nombre = `una foto de ${one[0]}`;
   const img = one[1].sort(() => Math.random() - 0.5).pop();
-  // console.log({ nombre, img });
-
+  await new Promise((resolve) => setTimeout(resolve(), 1000));
+  console.log({ nombre, img });
   await flowDynamic({
     body: nombre,
     media: img,

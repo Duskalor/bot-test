@@ -1,15 +1,19 @@
 const { launch } = require('puppeteer');
-const locateChrome = require('locate-chrome');
+// const locateChrome = require('locate-chrome');
 
 const URL = 'https://waykistore.pe/lista-productos.php?oferta=SI';
 
-const executablePath =
-  (await new Promise((resolve) => locateChrome((arg) => resolve(arg)))) || '';
+// const executablePath =
+//   (await new Promise((resolve) => locateChrome((arg) => resolve(arg)))) || '';
 
 const waykiSrapper = async () => {
   const datos = [];
-  console.log('test1');
-  const browser = await launch({ executablePath });
+  // console.log('test1');
+  const browser = await launch({
+    headless: 'new',
+    executablePath: '/usr/bin/google-chrome-stable',
+  });
+  console.log('aqui!!!!');
   const page = await browser.newPage();
   await page.setViewport({
     width: 1640,

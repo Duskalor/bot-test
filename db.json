@@ -1,14 +1,14 @@
 [
   {
-    "ref": "01cc8319-85d9-4aad-b10f-7743d47a163b",
+    "ref": "b10aa573-2350-43b1-b860-16465e1b1443",
     "keyword": "2294c3d08b53a6effa5df696a15b9d30",
-    "answer": "F",
+    "answer": "6",
     "options": {},
     "from": "51986154999",
-    "refSerialize": "a4bb96a8c3a8cb69dde68c980434d15c"
+    "refSerialize": "a7c49181ef3046656ea8ab317c4adca7"
   },
   {
-    "ref": "cd80ae2c-14b8-49ac-8064-a609f65a4e82",
+    "ref": "08a12537-3927-4653-b3b2-0738d59ebb95",
     "answer": "🙌 Hola bienvenido *Paul Cruz*",
     "options": {
       "media": null,
@@ -20,8 +20,8 @@
     "refSerialize": "23bb090f3dbd8aff577d4081c5dfe076"
   },
   {
-    "ref": "ans_d81672bb-5343-4d63-bfb5-b86f9ac4dd72",
-    "keyword": "ans_df59dca4-f007-4dcf-aa6b-8332147fca33",
+    "ref": "ans_f822d711-3e26-4894-acd0-77568613fabf",
+    "keyword": "ans_02ed876f-7413-4d37-8ffa-dd639833a64d",
     "answer": "*1.* Discos Solidos\n*2.* Ofertas\n*3.* Una Coreana Random",
     "options": {
       "media": null,
@@ -31,7 +31,7 @@
       "delay": 0,
       "nested": [
         {
-          "ref": "key_28c23f19-ad79-40bf-9149-f5db556f34ab",
+          "ref": "key_44e2326f-db1e-491f-aef0-83c1fa0732bc",
           "keyword": "1",
           "options": {
             "sensitive": false,
@@ -40,8 +40,8 @@
           "refSerialize": "065e0005da6e5c278a53691e53b48955"
         },
         {
-          "ref": "ans_2d2b5f8e-ee93-4a4d-ab83-b2b06bd1e383",
-          "keyword": "key_28c23f19-ad79-40bf-9149-f5db556f34ab",
+          "ref": "ans_64eeef4b-599d-4a25-ba2a-afe6c9d4fb7c",
+          "keyword": "key_44e2326f-db1e-491f-aef0-83c1fa0732bc",
           "answer": "__call_action__",
           "options": {
             "media": null,
@@ -53,10 +53,10 @@
             "keyword": {},
             "callback": true
           },
-          "refSerialize": "0764115136b56d1a2532715d29f5ea4e"
+          "refSerialize": "451902950d4fb6ffc97e9716aeeb120a"
         },
         {
-          "ref": "key_024ab335-40b6-4c0d-afac-8b7d6b325307",
+          "ref": "key_b7b32ce4-2faf-43de-a4a2-ae1f6a84e2e7",
           "keyword": "2",
           "options": {
             "sensitive": false,
@@ -65,8 +65,8 @@
           "refSerialize": "900c9aa0094bfcca4a316ec66236e2fc"
         },
         {
-          "ref": "ans_1400ce7f-4ad8-4352-9656-0933127377c2",
-          "keyword": "key_024ab335-40b6-4c0d-afac-8b7d6b325307",
+          "ref": "ans_ce2f1d2c-8342-4f28-8c8e-f99ea1b343c2",
+          "keyword": "key_b7b32ce4-2faf-43de-a4a2-ae1f6a84e2e7",
           "answer": "__call_action__",
           "options": {
             "media": null,
@@ -78,10 +78,10 @@
             "keyword": {},
             "callback": true
           },
-          "refSerialize": "7cfda38f2ca9a46bd95016216714829d"
+          "refSerialize": "803b60fa9f892c1904f66ec90bce7683"
         },
         {
-          "ref": "key_5e545c57-5172-4dd4-878f-7b18c52c0daa",
+          "ref": "key_fa180cdd-c6dc-4871-bc30-c0e0ee28f110",
           "keyword": "3",
           "options": {
             "sensitive": false,
@@ -90,8 +90,8 @@
           "refSerialize": "741cd7b8654e06cc47783fa3ba233c53"
         },
         {
-          "ref": "ans_b7580d2a-b8dc-4a2b-a656-68c1ad326863",
-          "keyword": "key_5e545c57-5172-4dd4-878f-7b18c52c0daa",
+          "ref": "ans_1db7d07d-4c56-43a0-b897-2f2297bf69d9",
+          "keyword": "key_fa180cdd-c6dc-4871-bc30-c0e0ee28f110",
           "answer": "__call_action__",
           "options": {
             "media": null,
@@ -103,18 +103,18 @@
             "keyword": {},
             "callback": true
           },
-          "refSerialize": "920a40daaca95d01b985db3646dc0bca"
+          "refSerialize": "25c26b62407dbda50b9247b7ce54415f"
         }
       ],
       "keyword": {},
       "callback": false
     },
-    "refSerialize": "a42de15fff58682c0835bf0c3423e5dd",
+    "refSerialize": "96ef3ce1a99c969b486d329f5b4d5391",
     "from": "51986154999"
   },
   {
-    "ref": "ans_d81672bb-5343-4d63-bfb5-b86f9ac4dd72",
-    "keyword": "ans_df59dca4-f007-4dcf-aa6b-8332147fca33",
+    "ref": "ans_f822d711-3e26-4894-acd0-77568613fabf",
+    "keyword": "ans_02ed876f-7413-4d37-8ffa-dd639833a64d",
     "answer": "*1.* Discos Solidos\n*2.* Ofertas\n*3.* Una Coreana Random",
     "options": {
       "media": null,
@@ -124,7 +124,7 @@
       "delay": 0,
       "nested": [
         {
-          "ref": "key_28c23f19-ad79-40bf-9149-f5db556f34ab",
+          "ref": "key_44e2326f-db1e-491f-aef0-83c1fa0732bc",
           "keyword": "1",
           "options": {
             "sensitive": false,
@@ -133,8 +133,8 @@
           "refSerialize": "065e0005da6e5c278a53691e53b48955"
         },
         {
-          "ref": "ans_2d2b5f8e-ee93-4a4d-ab83-b2b06bd1e383",
-          "keyword": "key_28c23f19-ad79-40bf-9149-f5db556f34ab",
+          "ref": "ans_64eeef4b-599d-4a25-ba2a-afe6c9d4fb7c",
+          "keyword": "key_44e2326f-db1e-491f-aef0-83c1fa0732bc",
           "answer": "__call_action__",
           "options": {
             "media": null,
@@ -146,10 +146,10 @@
             "keyword": {},
             "callback": true
           },
-          "refSerialize": "0764115136b56d1a2532715d29f5ea4e"
+          "refSerialize": "451902950d4fb6ffc97e9716aeeb120a"
         },
         {
-          "ref": "key_024ab335-40b6-4c0d-afac-8b7d6b325307",
+          "ref": "key_b7b32ce4-2faf-43de-a4a2-ae1f6a84e2e7",
           "keyword": "2",
           "options": {
             "sensitive": false,
@@ -158,8 +158,8 @@
           "refSerialize": "900c9aa0094bfcca4a316ec66236e2fc"
         },
         {
-          "ref": "ans_1400ce7f-4ad8-4352-9656-0933127377c2",
-          "keyword": "key_024ab335-40b6-4c0d-afac-8b7d6b325307",
+          "ref": "ans_ce2f1d2c-8342-4f28-8c8e-f99ea1b343c2",
+          "keyword": "key_b7b32ce4-2faf-43de-a4a2-ae1f6a84e2e7",
           "answer": "__call_action__",
           "options": {
             "media": null,
@@ -171,10 +171,10 @@
             "keyword": {},
             "callback": true
           },
-          "refSerialize": "7cfda38f2ca9a46bd95016216714829d"
+          "refSerialize": "803b60fa9f892c1904f66ec90bce7683"
         },
         {
-          "ref": "key_5e545c57-5172-4dd4-878f-7b18c52c0daa",
+          "ref": "key_fa180cdd-c6dc-4871-bc30-c0e0ee28f110",
           "keyword": "3",
           "options": {
             "sensitive": false,
@@ -183,8 +183,8 @@
           "refSerialize": "741cd7b8654e06cc47783fa3ba233c53"
         },
         {
-          "ref": "ans_b7580d2a-b8dc-4a2b-a656-68c1ad326863",
-          "keyword": "key_5e545c57-5172-4dd4-878f-7b18c52c0daa",
+          "ref": "ans_1db7d07d-4c56-43a0-b897-2f2297bf69d9",
+          "keyword": "key_fa180cdd-c6dc-4871-bc30-c0e0ee28f110",
           "answer": "__call_action__",
           "options": {
             "media": null,
@@ -196,25 +196,251 @@
             "keyword": {},
             "callback": true
           },
-          "refSerialize": "920a40daaca95d01b985db3646dc0bca"
+          "refSerialize": "25c26b62407dbda50b9247b7ce54415f"
         }
       ],
       "keyword": {},
       "callback": false
     },
-    "refSerialize": "a42de15fff58682c0835bf0c3423e5dd",
+    "refSerialize": "96ef3ce1a99c969b486d329f5b4d5391",
     "from": "51986154999"
   },
   {
-    "ref": "219c96e0-d1fd-4208-86f0-218eb02988b8",
-    "keyword": "a42de15fff58682c0835bf0c3423e5dd",
+    "ref": "d2ce82bf-6ed5-4fff-ac41-67989cf2a1de",
+    "keyword": "96ef3ce1a99c969b486d329f5b4d5391",
+    "answer": "3",
+    "options": {},
+    "from": "51986154999",
+    "refSerialize": "7af65864494b12f0f7ef00589f4d3979"
+  },
+  {
+    "ref": "49351f19-f8d3-4958-b7f2-90db5e0c9e55",
+    "answer": "una foto de jennie",
+    "options": {
+      "media": "https://media.vogue.mx/photos/62d7057bc2a76d1a5917f7d0/1:1/w_2000,h_2000,c_limit/jennie-kim.jpg",
+      "buttons": [],
+      "capture": false,
+      "delay": 0
+    },
+    "from": "51986154999",
+    "refSerialize": "8092db6a254665470e5acea77780a051"
+  },
+  {
+    "ref": "f189183e-c2f3-49ea-94c1-41c793fa1e32",
+    "keyword": "7af65864494b12f0f7ef00589f4d3979",
+    "answer": "Yy",
+    "options": {},
+    "from": "51986154999",
+    "refSerialize": "6d7d71cd052a6f1a9cebc7e763ec3d69"
+  },
+  {
+    "ref": "0bd0950b-2ca7-443d-b141-04c50f4a3da3",
+    "answer": "🙌 Hola bienvenido *Paul Cruz*",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "delay": 0
+    },
+    "from": "51986154999",
+    "refSerialize": "23bb090f3dbd8aff577d4081c5dfe076"
+  },
+  {
+    "ref": "ans_f822d711-3e26-4894-acd0-77568613fabf",
+    "keyword": "ans_02ed876f-7413-4d37-8ffa-dd639833a64d",
+    "answer": "*1.* Discos Solidos\n*2.* Ofertas\n*3.* Una Coreana Random",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "child": null,
+      "delay": 0,
+      "nested": [
+        {
+          "ref": "key_44e2326f-db1e-491f-aef0-83c1fa0732bc",
+          "keyword": "1",
+          "options": {
+            "sensitive": false,
+            "regex": false
+          },
+          "refSerialize": "065e0005da6e5c278a53691e53b48955"
+        },
+        {
+          "ref": "ans_64eeef4b-599d-4a25-ba2a-afe6c9d4fb7c",
+          "keyword": "key_44e2326f-db1e-491f-aef0-83c1fa0732bc",
+          "answer": "__call_action__",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "nested": [],
+            "keyword": {},
+            "callback": true
+          },
+          "refSerialize": "451902950d4fb6ffc97e9716aeeb120a"
+        },
+        {
+          "ref": "key_b7b32ce4-2faf-43de-a4a2-ae1f6a84e2e7",
+          "keyword": "2",
+          "options": {
+            "sensitive": false,
+            "regex": false
+          },
+          "refSerialize": "900c9aa0094bfcca4a316ec66236e2fc"
+        },
+        {
+          "ref": "ans_ce2f1d2c-8342-4f28-8c8e-f99ea1b343c2",
+          "keyword": "key_b7b32ce4-2faf-43de-a4a2-ae1f6a84e2e7",
+          "answer": "__call_action__",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "nested": [],
+            "keyword": {},
+            "callback": true
+          },
+          "refSerialize": "803b60fa9f892c1904f66ec90bce7683"
+        },
+        {
+          "ref": "key_fa180cdd-c6dc-4871-bc30-c0e0ee28f110",
+          "keyword": "3",
+          "options": {
+            "sensitive": false,
+            "regex": false
+          },
+          "refSerialize": "741cd7b8654e06cc47783fa3ba233c53"
+        },
+        {
+          "ref": "ans_1db7d07d-4c56-43a0-b897-2f2297bf69d9",
+          "keyword": "key_fa180cdd-c6dc-4871-bc30-c0e0ee28f110",
+          "answer": "__call_action__",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "nested": [],
+            "keyword": {},
+            "callback": true
+          },
+          "refSerialize": "25c26b62407dbda50b9247b7ce54415f"
+        }
+      ],
+      "keyword": {},
+      "callback": false
+    },
+    "refSerialize": "96ef3ce1a99c969b486d329f5b4d5391",
+    "from": "51986154999"
+  },
+  {
+    "ref": "ans_f822d711-3e26-4894-acd0-77568613fabf",
+    "keyword": "ans_02ed876f-7413-4d37-8ffa-dd639833a64d",
+    "answer": "*1.* Discos Solidos\n*2.* Ofertas\n*3.* Una Coreana Random",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "child": null,
+      "delay": 0,
+      "nested": [
+        {
+          "ref": "key_44e2326f-db1e-491f-aef0-83c1fa0732bc",
+          "keyword": "1",
+          "options": {
+            "sensitive": false,
+            "regex": false
+          },
+          "refSerialize": "065e0005da6e5c278a53691e53b48955"
+        },
+        {
+          "ref": "ans_64eeef4b-599d-4a25-ba2a-afe6c9d4fb7c",
+          "keyword": "key_44e2326f-db1e-491f-aef0-83c1fa0732bc",
+          "answer": "__call_action__",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "nested": [],
+            "keyword": {},
+            "callback": true
+          },
+          "refSerialize": "451902950d4fb6ffc97e9716aeeb120a"
+        },
+        {
+          "ref": "key_b7b32ce4-2faf-43de-a4a2-ae1f6a84e2e7",
+          "keyword": "2",
+          "options": {
+            "sensitive": false,
+            "regex": false
+          },
+          "refSerialize": "900c9aa0094bfcca4a316ec66236e2fc"
+        },
+        {
+          "ref": "ans_ce2f1d2c-8342-4f28-8c8e-f99ea1b343c2",
+          "keyword": "key_b7b32ce4-2faf-43de-a4a2-ae1f6a84e2e7",
+          "answer": "__call_action__",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "nested": [],
+            "keyword": {},
+            "callback": true
+          },
+          "refSerialize": "803b60fa9f892c1904f66ec90bce7683"
+        },
+        {
+          "ref": "key_fa180cdd-c6dc-4871-bc30-c0e0ee28f110",
+          "keyword": "3",
+          "options": {
+            "sensitive": false,
+            "regex": false
+          },
+          "refSerialize": "741cd7b8654e06cc47783fa3ba233c53"
+        },
+        {
+          "ref": "ans_1db7d07d-4c56-43a0-b897-2f2297bf69d9",
+          "keyword": "key_fa180cdd-c6dc-4871-bc30-c0e0ee28f110",
+          "answer": "__call_action__",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "nested": [],
+            "keyword": {},
+            "callback": true
+          },
+          "refSerialize": "25c26b62407dbda50b9247b7ce54415f"
+        }
+      ],
+      "keyword": {},
+      "callback": false
+    },
+    "refSerialize": "96ef3ce1a99c969b486d329f5b4d5391",
+    "from": "51986154999"
+  },
+  {
+    "ref": "56f31211-4134-45c6-8ccf-7127488fe9cb",
+    "keyword": "96ef3ce1a99c969b486d329f5b4d5391",
     "answer": "2",
     "options": {},
     "from": "51986154999",
     "refSerialize": "2294c3d08b53a6effa5df696a15b9d30"
   },
   {
-    "ref": "fcf644a2-4f27-4b16-96ab-7201fbcbb5fb",
+    "ref": "f8cb082d-c8cd-40f2-93c3-6a910bd83ebf",
     "answer": "obteniendo datos.....",
     "options": {
       "media": null,
@@ -226,9 +452,9 @@
     "refSerialize": "12d2abcb4b61cd91079eb39ecd62bb2b"
   },
   {
-    "ref": "1b0e3b27-ad86-4cdd-8f7b-6016bdf06f89",
+    "ref": "83fa4d34-a805-4ffc-9ac4-f7181b18cfa2",
     "answer": [
-      "LAPTOP HP 250 G9, 15.6 \n *📢 Oferta!! S/. 3157 Soles 📢* \n https://waykistore.pe/detalle-producto.php?cod_producto=160"
+      "LAPTOP HP 250 G9, 15.6 \n *📢 Oferta!! S/. 3280 Soles 📢* \n https://waykistore.pe/detalle-producto.php?cod_producto=160"
     ],
     "options": {
       "media": "https://waykistore.pe/img-apps/productos/HP 250 G9.jpg",
@@ -237,26 +463,12 @@
       "delay": 0
     },
     "from": "51986154999",
-    "refSerialize": "8f9d3249294268d646a23fe726942db5"
+    "refSerialize": "972d7583d06db1a457ed6e861d487a16"
   },
   {
-    "ref": "b5811ecd-b750-4868-a9ce-887fb727b797",
+    "ref": "5e99c997-67c5-4493-8efe-12a47b876efe",
     "answer": [
-      "LAPTOP HAIER H15C3 CORE I3-10110U, 4GB RAM, 256GB SSD, 15.6″ FHD \n *📢 Oferta!! S/. 1038 Soles 📢* \n https://waykistore.pe/detalle-producto.php?cod_producto=152"
-    ],
-    "options": {
-      "media": "https://waykistore.pe/img-apps/productos/HAIER H15C5 I5.jpg",
-      "buttons": [],
-      "capture": false,
-      "delay": 0
-    },
-    "from": "51986154999",
-    "refSerialize": "a36871c4edb6fd3477d5050e508150a4"
-  },
-  {
-    "ref": "3a0ac119-bd67-4b26-9f31-99ed09701190",
-    "answer": [
-      "LAPTOP LENOVO V15 GEN 3 IAP INTEL CORE I5 1235U RAM 8GB DISCO 256GB SSD 15.6″ FHD \n *📢 Oferta!! S/. 1957 Soles 📢* \n https://waykistore.pe/detalle-producto.php?cod_producto=149"
+      "LAPTOP LENOVO V15 GEN 3 IAP INTEL CORE I5 1235U RAM 8GB DISCO 256GB SSD 15.6″ FHD \n *📢 Oferta!! S/. 1854 Soles 📢* \n https://waykistore.pe/detalle-producto.php?cod_producto=149"
     ],
     "options": {
       "media": "https://waykistore.pe/img-apps/productos/Lenovo V15 G3 IAP.jpg",
@@ -265,20 +477,6 @@
       "delay": 0
     },
     "from": "51986154999",
-    "refSerialize": "cdf8e465bcf1ba85d2237cc0fcf7e66c"
-  },
-  {
-    "ref": "b778944a-73cd-4353-b473-7cf72e21cc71",
-    "answer": [
-      "LAPTOP LENOVO IDEAPAD 3 15ITL6 I5-1135G7 12GB 512GB SSD 15.6 FHD  \n *📢 Oferta!! S/. 1938 Soles 📢* \n https://waykistore.pe/detalle-producto.php?cod_producto=164"
-    ],
-    "options": {
-      "media": "https://waykistore.pe/img-apps/productos/IDEAPAD 3 15ITL6.jpg",
-      "buttons": [],
-      "capture": false,
-      "delay": 0
-    },
-    "from": "51986154999",
-    "refSerialize": "3fb864fd4124366930b99b092a83abf5"
+    "refSerialize": "1750a8dab5d2fac0e06ad2d723c38093"
   }
 ]
