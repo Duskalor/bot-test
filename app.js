@@ -1,3 +1,5 @@
+process.env.NODE_TLS_REJECT_UNAUTHORIZED = '0';
+
 const {
   createBot,
   createProvider,
@@ -12,17 +14,17 @@ const BaileysProvider = require('@bot-whatsapp/provider/baileys');
 const JsonFileAdapter = require('@bot-whatsapp/database/json');
 
 const fs = require('node:fs');
-const { readdir, unlink } = require('fs').promises;
-const path = require('path');
-const axios = require('axios');
-const https = require('node:https');
+// const { readdir, unlink } = require('fs').promises;
+// const path = require('path');
+// const axios = require('axios');
+// const https = require('node:https');
 const deltronSrapper = require('./src/scrapper');
 const waykiSrapper = require('./src/wayki');
 const BlackPink = require('./src/utils/bp');
 
-const httpsAgent = new https.Agent({
-  rejectUnauthorized: false,
-});
+// const httpsAgent = new https.Agent({
+//   rejectUnauthorized: false,
+// });
 
 // carpeta de destino
 // const carpet = 'test';
@@ -37,45 +39,15 @@ if (!fs.existsSync(routePath)) {
 
 const flowDiscos = addKeyword('1').addAction(async (ctx, { flowDynamic }) => {
   flowDynamic('generando datos.....');
-  console.log('aqui');
   const datos = await deltronSrapper();
-  // console.log(datos);
-  datos.forEach(async (item, i) => {
-    // console.log('item', i + 1);
-    const nombre = item.nombre.slice(0, 20).replace(/ /g, '');
-    axios({
-      httpsAgent,
-      method: 'get',
-      url: item.img,
-      responseType: 'stream',
-    }).then((response) => {
-      const res = response.data.pipe(
-        fs.createWriteStream(`${routePath}/${nombre}.jpg`)
-      );
-      return res;
+  console.log(datos);
+  datos.forEach(async (item) => {
+    await flowDynamic({
+      body: [
+        `${item.nombre} \n a  ${item.precio}  \n mini codigo : ${item.minCode}`,
+      ],
+      media: item.img,
     });
-    new Promise((resolve) => setTimeout(resolve, 200)).then(() => {
-      flowDynamic({
-        body: [item.nombre, '\n', item.url],
-        media: `./Imagenes/${nombre}.jpg`,
-      });
-    });
-  });
-
-  new Promise((resolve) => setTimeout(resolve, 200 * datos.length)).then(() => {
-    readdir('Imagenes')
-      .then((files) => {
-        const unlinkPromises = files.map((file) => {
-          const filePath = path.join('Imagenes', file);
-          return unlink(filePath);
-        });
-
-        return Promise.all(unlinkPromises);
-      })
-      .catch((err) => {
-        console.log(err);
-        console.error(`Something wrong happened removing files of ${carpet}`);
-      });
   });
 });
 

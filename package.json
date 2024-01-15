@@ -9,23 +9,23 @@
   },
   "keywords": [],
   "dependencies": {
-    "@bot-whatsapp/bot": "^0.1.32",
-    "@bot-whatsapp/cli": "^0.1.32",
-    "@bot-whatsapp/database": "^0.1.32",
-    "@bot-whatsapp/portal": "^0.1.32",
-    "@bot-whatsapp/provider": "^0.1.32",
-    "@whiskeysockets/baileys": "^6.4.1",
-    "axios": "^1.5.0",
+    "@bot-whatsapp/bot": "^0.1.35",
+    "@bot-whatsapp/cli": "^0.1.35",
+    "@bot-whatsapp/database": "^0.1.35",
+    "@bot-whatsapp/portal": "^0.1.35",
+    "@bot-whatsapp/provider": "^0.1.35",
+    "@whiskeysockets/baileys": "^6.5.0",
+    "axios": "^1.6.5",
     "locate-chrome": "^0.1.1",
     "mime-types": "2.1.35",
-    "mongodb": "^4.12.1",
-    "puppeteer": "^21.2.1",
+    "mongodb": "^4.17.2",
+    "puppeteer": "^21.7.0",
     "wa-sticker-formatter": "4.4.4"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "eslint-config-prettier": "^9.0.0",
+    "eslint-config-prettier": "^9.1.0",
     "standard": "^17.1.0"
   },
   "eslintConfig": {
