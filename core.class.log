@@ -2,10 +2,10 @@
   key: {
     remoteJid: '51986154999@s.whatsapp.net',
     fromMe: false,
-    id: '3EB0F8DB36C367888357D1',
+    id: '3EB082E37CAAEF7234DFEE',
     participant: undefined
   },
-  messageTimestamp: 1694758366,
+  messageTimestamp: 1705299542,
   pushName: 'Paul Cruz',
   broadcast: false,
   message: Message {
@@ -19,45 +19,9 @@
   from: '51986154999'
 }
 [QUEUE_SE_ENVIO]:  {
-  ref: 'ans_84252828-6388-401e-8d50-9b6775b51b74',
-  keyword: 'key_d164977d-819b-461a-88ff-1a64f489b540',
-  answer: 'cuanto es 2 + 3??',
-  options: {
-    media: null,
-    buttons: [],
-    capture: true,
-    child: null,
-    delay: 0,
-    nested: [],
-    keyword: {},
-    callback: true
-  },
-  refSerialize: '810037eafa1ed9b9660ab2bf628969ff'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '51986154999@s.whatsapp.net',
-    fromMe: false,
-    id: '3EB04558818A0AE979E113',
-    participant: undefined
-  },
-  messageTimestamp: 1694758368,
-  pushName: 'Paul Cruz',
-  broadcast: false,
-  message: Message {
-    conversation: '5',
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    }
-  },
-  body: '5',
-  from: '51986154999'
-}
-[QUEUE_SE_ENVIO]:  {
-  ref: 'ans_25e1c0e6-7cdb-4178-b81f-b3f9e9951d66',
-  keyword: 'ans_84252828-6388-401e-8d50-9b6775b51b74',
-  answer: 'xdddd',
+  ref: 'ans_8bf58f02-1b11-40b3-8407-2b260f64b5a0',
+  keyword: 'key_756f77cf-e913-49c2-8ee7-657d996d88e1',
+  answer: '__call_action__',
   options: {
     media: null,
     buttons: [],
@@ -66,7 +30,59 @@
     delay: 0,
     nested: [],
     keyword: {},
+    callback: true
+  },
+  refSerialize: '49c6aa097ad820c77f314dab1f81dc29'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_b78e44dc-e4b1-48e6-b684-d33b109443f9',
+  keyword: 'ans_8bf58f02-1b11-40b3-8407-2b260f64b5a0',
+  answer: '*1.* Discos Solidos\n*2.* Ofertas\n*3.* Una Coreana Random',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    nested: [ [Object], [Object], [Object], [Object], [Object], [Object] ],
+    keyword: {},
     callback: false
   },
-  refSerialize: '648adb2a1c7e6ab5eb5f8eb512ffdbf9'
+  refSerialize: 'f8190850032177599350abd6f99ad168'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '51986154999@s.whatsapp.net',
+    fromMe: false,
+    id: '3EB0260BE42624212E65CA',
+    participant: undefined
+  },
+  messageTimestamp: 1705299543,
+  pushName: 'Paul Cruz',
+  broadcast: false,
+  message: Message {
+    conversation: '1',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: '1',
+  from: '51986154999'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_6c1eea86-be69-4ea4-aeb5-3a83c8eb5280',
+  keyword: 'key_69cc9f77-0842-4924-af27-decba51492eb',
+  answer: '__call_action__',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: 'bfdee199f44b4467a0d9f8ba0767427d'
 }
