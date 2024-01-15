@@ -1,0 +1,94 @@
+[handleMsg]:  {
+  key: {
+    remoteJid: '51986154999@s.whatsapp.net',
+    fromMe: false,
+    id: '6AB1259B63F8F276A4E474D460AF67BB',
+    participant: undefined
+  },
+  messageTimestamp: 1705352583,
+  pushName: 'Paul Cruz',
+  broadcast: false,
+  message: Message {
+    conversation: 'Hola',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'Hola',
+  from: '51986154999'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_8d4036ff-977e-49dc-b963-f69317d8f02b',
+  keyword: 'key_084857d2-94d1-45a8-b588-0cf34adec26e',
+  answer: '__call_action__',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: 'ac1ecdfa48e62bdb728b80da577bcfa9'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_18ffd777-164f-4770-b4aa-6bc87e581db2',
+  keyword: 'ans_8d4036ff-977e-49dc-b963-f69317d8f02b',
+  answer: '*1.* Discos Solidos\n*2.* Ofertas\n*3.* Una Coreana Random',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [ [Object], [Object], [Object], [Object], [Object], [Object] ],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: '6e4a41d3ac9bcf3ebb6956662e56bb7a'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '51986154999@s.whatsapp.net',
+    fromMe: false,
+    id: '1A827D6C75C1F6B7ADDC5B86966B37B5',
+    participant: undefined
+  },
+  messageTimestamp: 1705352585,
+  pushName: 'Paul Cruz',
+  broadcast: false,
+  message: Message {
+    conversation: '1',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: '1',
+  from: '51986154999'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_7f3d4f15-5426-461e-ade8-b54180947a95',
+  keyword: 'key_55be82bf-11c4-416f-9193-e0a2a7559842',
+  answer: '__call_action__',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: '5a609f86f21d54112a44614a1227a77c'
+}

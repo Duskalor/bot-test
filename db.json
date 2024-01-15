@@ -1,15 +1,7 @@
 [
   {
-    "ref": "d01da3de-3af9-41e4-9856-079f995b62b1",
-    "keyword": "9db756ea44e6884d21c9648362113764",
-    "answer": "H",
-    "options": {},
-    "from": "51972811359",
-    "refSerialize": "ff1074a08d544026a56e516f49298f06"
-  },
-  {
-    "ref": "ans_84f10901-9086-42fe-a8da-865e336b0424",
-    "keyword": "key_364eb580-cf78-4729-b77b-52e7ff6a66f4",
+    "ref": "ans_8d4036ff-977e-49dc-b963-f69317d8f02b",
+    "keyword": "key_084857d2-94d1-45a8-b588-0cf34adec26e",
     "answer": "__call_action__",
     "options": {
       "media": null,
@@ -23,25 +15,25 @@
       "keyword": {},
       "callback": true
     },
-    "refSerialize": "12d463576b7a7df66d10da36fc975cc9",
-    "from": "51972811359"
+    "refSerialize": "ac1ecdfa48e62bdb728b80da577bcfa9",
+    "from": "51986154999"
   },
   {
-    "ref": "ac06683f-b596-4e14-8357-7f25742af606",
+    "ref": "3d75d580-59e6-40a2-b54d-f0067c1667c9",
     "keyword": null,
-    "answer": "🙌 Hola bienvenido *Rusber*",
+    "answer": "🙌 Hola bienvenido *Paul Cruz*",
     "options": {
       "media": null,
       "buttons": [],
       "capture": false,
       "delay": 0
     },
-    "from": "51972811359",
-    "refSerialize": "bf03bccb9a110898b69cbf0425fc7b2f"
+    "from": "51986154999",
+    "refSerialize": "23bb090f3dbd8aff577d4081c5dfe076"
   },
   {
-    "ref": "ans_92f2284d-6478-4492-b7ec-a79f8816693f",
-    "keyword": "ans_84f10901-9086-42fe-a8da-865e336b0424",
+    "ref": "ans_18ffd777-164f-4770-b4aa-6bc87e581db2",
+    "keyword": "ans_8d4036ff-977e-49dc-b963-f69317d8f02b",
     "answer": "*1.* Discos Solidos\n*2.* Ofertas\n*3.* Una Coreana Random",
     "options": {
       "media": null,
@@ -53,7 +45,7 @@
       "ref": null,
       "nested": [
         {
-          "ref": "key_fa77c7ed-bc7d-4ffa-913d-88e160329cc2",
+          "ref": "key_55be82bf-11c4-416f-9193-e0a2a7559842",
           "keyword": "1",
           "options": {
             "sensitive": false,
@@ -62,8 +54,8 @@
           "refSerialize": "065e0005da6e5c278a53691e53b48955"
         },
         {
-          "ref": "ans_6a150ad0-af8d-4263-ac37-a662e804d428",
-          "keyword": "key_fa77c7ed-bc7d-4ffa-913d-88e160329cc2",
+          "ref": "ans_7f3d4f15-5426-461e-ade8-b54180947a95",
+          "keyword": "key_55be82bf-11c4-416f-9193-e0a2a7559842",
           "answer": "__call_action__",
           "options": {
             "media": null,
@@ -77,10 +69,10 @@
             "keyword": {},
             "callback": true
           },
-          "refSerialize": "735d5ae789ff96d64df81913a50f2716"
+          "refSerialize": "5a609f86f21d54112a44614a1227a77c"
         },
         {
-          "ref": "key_b1f18a5c-8988-4904-9a24-f4892d424155",
+          "ref": "key_6c2efd6e-3fb1-4d91-91f2-4403cb245e18",
           "keyword": "2",
           "options": {
             "sensitive": false,
@@ -89,8 +81,8 @@
           "refSerialize": "900c9aa0094bfcca4a316ec66236e2fc"
         },
         {
-          "ref": "ans_38d9c9d0-f4f7-43c7-ad82-0ff72880f8f2",
-          "keyword": "key_b1f18a5c-8988-4904-9a24-f4892d424155",
+          "ref": "ans_12571cb2-a81b-4ccf-898b-692779d6d94a",
+          "keyword": "key_6c2efd6e-3fb1-4d91-91f2-4403cb245e18",
           "answer": "__call_action__",
           "options": {
             "media": null,
@@ -104,10 +96,10 @@
             "keyword": {},
             "callback": true
           },
-          "refSerialize": "c6553e48c539236c8e74b668ba553e19"
+          "refSerialize": "a14f3fdc23ba666267861849bb19f310"
         },
         {
-          "ref": "key_489307e2-f931-4570-b56c-29198defaa46",
+          "ref": "key_64cd84cd-ddd8-4a62-8c54-fdd2b7b99c72",
           "keyword": "3",
           "options": {
             "sensitive": false,
@@ -116,8 +108,8 @@
           "refSerialize": "741cd7b8654e06cc47783fa3ba233c53"
         },
         {
-          "ref": "ans_1f449348-5b1a-4ed8-bffe-72b956af6a65",
-          "keyword": "key_489307e2-f931-4570-b56c-29198defaa46",
+          "ref": "ans_0f13e69c-0f8f-40be-8730-b48dad28c2cd",
+          "keyword": "key_64cd84cd-ddd8-4a62-8c54-fdd2b7b99c72",
           "answer": "__call_action__",
           "options": {
             "media": null,
@@ -131,18 +123,18 @@
             "keyword": {},
             "callback": true
           },
-          "refSerialize": "dea6ed28ddc1a89c8e04700540fb2b12"
+          "refSerialize": "ec4cc5f0fc373d314deed0607a9bf603"
         }
       ],
       "keyword": {},
       "callback": false
     },
-    "refSerialize": "6a267ca9d140ef97814c9775e3f0d9dd",
-    "from": "51972811359"
+    "refSerialize": "6e4a41d3ac9bcf3ebb6956662e56bb7a",
+    "from": "51986154999"
   },
   {
-    "ref": "ans_92f2284d-6478-4492-b7ec-a79f8816693f",
-    "keyword": "ans_84f10901-9086-42fe-a8da-865e336b0424",
+    "ref": "ans_18ffd777-164f-4770-b4aa-6bc87e581db2",
+    "keyword": "ans_8d4036ff-977e-49dc-b963-f69317d8f02b",
     "answer": "*1.* Discos Solidos\n*2.* Ofertas\n*3.* Una Coreana Random",
     "options": {
       "media": null,
@@ -154,7 +146,7 @@
       "ref": null,
       "nested": [
         {
-          "ref": "key_fa77c7ed-bc7d-4ffa-913d-88e160329cc2",
+          "ref": "key_55be82bf-11c4-416f-9193-e0a2a7559842",
           "keyword": "1",
           "options": {
             "sensitive": false,
@@ -163,8 +155,8 @@
           "refSerialize": "065e0005da6e5c278a53691e53b48955"
         },
         {
-          "ref": "ans_6a150ad0-af8d-4263-ac37-a662e804d428",
-          "keyword": "key_fa77c7ed-bc7d-4ffa-913d-88e160329cc2",
+          "ref": "ans_7f3d4f15-5426-461e-ade8-b54180947a95",
+          "keyword": "key_55be82bf-11c4-416f-9193-e0a2a7559842",
           "answer": "__call_action__",
           "options": {
             "media": null,
@@ -178,10 +170,10 @@
             "keyword": {},
             "callback": true
           },
-          "refSerialize": "735d5ae789ff96d64df81913a50f2716"
+          "refSerialize": "5a609f86f21d54112a44614a1227a77c"
         },
         {
-          "ref": "key_b1f18a5c-8988-4904-9a24-f4892d424155",
+          "ref": "key_6c2efd6e-3fb1-4d91-91f2-4403cb245e18",
           "keyword": "2",
           "options": {
             "sensitive": false,
@@ -190,8 +182,8 @@
           "refSerialize": "900c9aa0094bfcca4a316ec66236e2fc"
         },
         {
-          "ref": "ans_38d9c9d0-f4f7-43c7-ad82-0ff72880f8f2",
-          "keyword": "key_b1f18a5c-8988-4904-9a24-f4892d424155",
+          "ref": "ans_12571cb2-a81b-4ccf-898b-692779d6d94a",
+          "keyword": "key_6c2efd6e-3fb1-4d91-91f2-4403cb245e18",
           "answer": "__call_action__",
           "options": {
             "media": null,
@@ -205,10 +197,10 @@
             "keyword": {},
             "callback": true
           },
-          "refSerialize": "c6553e48c539236c8e74b668ba553e19"
+          "refSerialize": "a14f3fdc23ba666267861849bb19f310"
         },
         {
-          "ref": "key_489307e2-f931-4570-b56c-29198defaa46",
+          "ref": "key_64cd84cd-ddd8-4a62-8c54-fdd2b7b99c72",
           "keyword": "3",
           "options": {
             "sensitive": false,
@@ -217,8 +209,8 @@
           "refSerialize": "741cd7b8654e06cc47783fa3ba233c53"
         },
         {
-          "ref": "ans_1f449348-5b1a-4ed8-bffe-72b956af6a65",
-          "keyword": "key_489307e2-f931-4570-b56c-29198defaa46",
+          "ref": "ans_0f13e69c-0f8f-40be-8730-b48dad28c2cd",
+          "keyword": "key_64cd84cd-ddd8-4a62-8c54-fdd2b7b99c72",
           "answer": "__call_action__",
           "options": {
             "media": null,
@@ -232,26 +224,26 @@
             "keyword": {},
             "callback": true
           },
-          "refSerialize": "dea6ed28ddc1a89c8e04700540fb2b12"
+          "refSerialize": "ec4cc5f0fc373d314deed0607a9bf603"
         }
       ],
       "keyword": {},
       "callback": false
     },
-    "refSerialize": "6a267ca9d140ef97814c9775e3f0d9dd",
-    "from": "51972811359"
+    "refSerialize": "6e4a41d3ac9bcf3ebb6956662e56bb7a",
+    "from": "51986154999"
   },
   {
-    "ref": "db065c0d-b232-482f-b7c2-04b4878a2257",
-    "keyword": "6a267ca9d140ef97814c9775e3f0d9dd",
+    "ref": "c96ba166-3b84-409e-9c65-0c0b5bf377eb",
+    "keyword": "6e4a41d3ac9bcf3ebb6956662e56bb7a",
     "answer": "1",
     "options": {},
-    "from": "51972811359",
+    "from": "51986154999",
     "refSerialize": "290236b1d481a790a200ea6e94b2122a"
   },
   {
-    "ref": "ans_6a150ad0-af8d-4263-ac37-a662e804d428",
-    "keyword": "key_fa77c7ed-bc7d-4ffa-913d-88e160329cc2",
+    "ref": "ans_7f3d4f15-5426-461e-ade8-b54180947a95",
+    "keyword": "key_55be82bf-11c4-416f-9193-e0a2a7559842",
     "answer": "__call_action__",
     "options": {
       "media": null,
@@ -265,11 +257,11 @@
       "keyword": {},
       "callback": true
     },
-    "refSerialize": "735d5ae789ff96d64df81913a50f2716",
-    "from": "51972811359"
+    "refSerialize": "5a609f86f21d54112a44614a1227a77c",
+    "from": "51986154999"
   },
   {
-    "ref": "e8cafffe-9e58-4a9c-968b-e7449bd0ced6",
+    "ref": "36488919-5562-46e7-989f-9591f3ee4367",
     "keyword": null,
     "answer": "generando datos.....",
     "options": {
@@ -278,72 +270,7 @@
       "capture": false,
       "delay": 0
     },
-    "from": "51972811359",
+    "from": "51986154999",
     "refSerialize": "3b4998df9dd767e4e6868b96d74ed5c7"
-  },
-  {
-    "ref": "246824d1-7e3e-4e3a-93ef-0c8eaa0cd35a",
-    "keyword": null,
-    "answer": "SSD SAM 980 PRO 500GB M.2 NVME \n a  S/. 375.31  \n mini codigo : 368936",
-    "options": {
-      "media": "https://imagenes.deltron.com.pe//images/productos/items/ss/ds/ssdsm980pro500g.jpg",
-      "buttons": [],
-      "capture": false,
-      "delay": 0
-    },
-    "from": "51972811359",
-    "refSerialize": "029280456c9fada11d5886612b942617"
-  },
-  {
-    "ref": "a958c991-3480-443e-8a1b-da6d2249018b",
-    "keyword": null,
-    "answer": "SSD TG 512GB CX2 SATA3 2.5'' \n a  S/. 114.13  \n mini codigo : 351575",
-    "options": {
-      "media": "https://imagenes.deltron.com.pe//images/productos/items/ss/dt/ssdtgt253x6512g.jpg",
-      "buttons": [],
-      "capture": false,
-      "delay": 0
-    },
-    "from": "51972811359",
-    "refSerialize": "adbc728109eb437915a5d9c335c1c836"
-  },
-  {
-    "ref": "fd0c87cb-854b-410d-9f8e-1a747dd8b5fb",
-    "keyword": null,
-    "answer": "SSD WD BLUE SN570 1TB NVME \n a  S/. 384.09  \n mini codigo : 384486",
-    "options": {
-      "media": "https://imagenes.deltron.com.pe//images/productos/items/ss/dw/ssdwds100t3b0c.jpg",
-      "buttons": [],
-      "capture": false,
-      "delay": 0
-    },
-    "from": "51972811359",
-    "refSerialize": "09a0e28f75c44f1427c93a2b02198a53"
-  },
-  {
-    "ref": "57d35e5c-16ba-4286-82da-27f648d930c1",
-    "keyword": null,
-    "answer": "SSD WD 1TB BLACK SN770 SE NVME \n a  S/. 432.38  \n mini codigo : 390761",
-    "options": {
-      "media": "https://imagenes.deltron.com.pe//images/productos/items/ss/dw/ssdwds100t3x0e.jpg",
-      "buttons": [],
-      "capture": false,
-      "delay": 0
-    },
-    "from": "51972811359",
-    "refSerialize": "52e98f326e2cd4b071d274885772f287"
-  },
-  {
-    "ref": "42d0049b-dcb9-48a4-9e07-a5f100de90d3",
-    "keyword": null,
-    "answer": "SSD WD BLUE SN580 2TB NVME GEN \n a  S/. 926.21  \n mini codigo : 422500",
-    "options": {
-      "media": "https://imagenes.deltron.com.pe//images/productos/items/ss/dw/ssdwds200t3b0e.jpg",
-      "buttons": [],
-      "capture": false,
-      "delay": 0
-    },
-    "from": "51972811359",
-    "refSerialize": "26e1c28cfdfe6a2529768836940ba962"
   }
 ]

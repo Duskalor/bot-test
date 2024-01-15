@@ -1,5 +1,4 @@
 require('dotenv/config');
-process.env.NODE_TLS_REJECT_UNAUTHORIZED = '0';
 const {
   createBot,
   createProvider,
@@ -78,10 +77,12 @@ const flowCoreana = addKeyword('3').addAction(async (ctx, { flowDynamic }) => {
   const img = one[1].sort(() => Math.random() - 0.5).pop();
   await new Promise((resolve) => setTimeout(resolve(), 1000));
   console.log({ nombre, img });
-  await flowDynamic({
-    body: nombre,
-    media: img,
-  });
+  await flowDynamic([
+    {
+      body: nombre,
+      media: img,
+    },
+  ]);
 });
 
 const flowPrincipal = addKeyword(EVENTS.WELCOME)
