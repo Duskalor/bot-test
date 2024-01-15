@@ -1,4 +1,4 @@
-import 'dotenv/config';
+require('dotenv/config');
 process.env.NODE_TLS_REJECT_UNAUTHORIZED = '0';
 const {
   createBot,
@@ -41,14 +41,12 @@ const flowDiscos = addKeyword('1').addAction(async (ctx, { flowDynamic }) => {
   flowDynamic('generando datos.....');
   const datos = await deltronSrapper();
   console.log(datos);
-  datos.forEach(async (item) => {
-    await flowDynamic({
-      body: [
-        `${item.nombre} \n a  ${item.precio}  \n mini codigo : ${item.minCode}`,
-      ],
-      media: item.img,
-    });
-  });
+
+  const flow = datos.map((item) => ({
+    body: `${item.nombre} \n a  ${item.precio}  \n mini codigo : ${item.minCode}`,
+    media: item.img,
+  }));
+  flowDynamic(flow);
 });
 
 const flowOfertas = addKeyword('2').addAction(async (ctx, { flowDynamic }) => {
