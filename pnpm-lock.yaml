@@ -6,26 +6,29 @@ settings:
 
 dependencies:
   '@bot-whatsapp/bot':
-    specifier: ^0.1.32
-    version: 0.1.32
+    specifier: ^0.1.35
+    version: 0.1.35
   '@bot-whatsapp/cli':
-    specifier: ^0.1.32
-    version: 0.1.32
+    specifier: ^0.1.35
+    version: 0.1.35
   '@bot-whatsapp/database':
-    specifier: ^0.1.32
-    version: 0.1.32
+    specifier: ^0.1.35
+    version: 0.1.35
   '@bot-whatsapp/portal':
-    specifier: ^0.1.32
-    version: 0.1.32
+    specifier: ^0.1.35
+    version: 0.1.35
   '@bot-whatsapp/provider':
-    specifier: ^0.1.32
-    version: 0.1.32
+    specifier: ^0.1.35
+    version: 0.1.35
   '@whiskeysockets/baileys':
-    specifier: ^6.4.1
-    version: 6.4.1
+    specifier: ^6.5.0
+    version: 6.5.0
   axios:
-    specifier: ^1.5.0
-    version: 1.5.0
+    specifier: ^1.6.5
+    version: 1.6.5
+  dotenv:
+    specifier: ^16.3.1
+    version: 16.3.1
   locate-chrome:
     specifier: ^0.1.1
     version: 0.1.1
@@ -33,19 +36,19 @@ dependencies:
     specifier: 2.1.35
     version: 2.1.35
   mongodb:
-    specifier: ^4.12.1
-    version: 4.17.1
+    specifier: ^4.17.2
+    version: 4.17.2
   puppeteer:
-    specifier: ^21.2.1
-    version: 21.2.1
+    specifier: ^21.7.0
+    version: 21.7.0
   wa-sticker-formatter:
     specifier: 4.4.4
     version: 4.4.4
 
 devDependencies:
   eslint-config-prettier:
-    specifier: ^9.0.0
-    version: 9.0.0(eslint@8.49.0)
+    specifier: ^9.1.0
+    version: 9.1.0(eslint@8.49.0)
   standard:
     specifier: ^17.1.0
     version: 17.1.0
@@ -605,24 +608,24 @@ packages:
       js-tokens: 4.0.0
     dev: false
 
-  /@bot-whatsapp/bot@0.1.32:
-    resolution: {integrity: sha512-1uX2h0sZqJ3QNKEZgFTOcATE9PZvdfRvOyPODSds9lD6bM+F+nIGzUzvVKdRk4n1UJFNh6m+OtsF4dHKs3r+Tg==}
+  /@bot-whatsapp/bot@0.1.35:
+    resolution: {integrity: sha512-UIJk/PqKVrftQQG8eaTovLLVp3Kn613wQ1YI6k3m0xNNjbl6uXSy07FbTtyx/BzOIPEBrnVxuPzfXQ/oGwCkQQ==}
     dependencies:
       dotenv: 16.3.1
     dev: false
 
-  /@bot-whatsapp/cli@0.1.32:
-    resolution: {integrity: sha512-H7T89FvGR0/rEC5awmIbpIsDWDL8RpFdl5QxTxhvJ5Ql49aufEhBktMBtvCARtlwj4NxXzXpMcSlgoceRCieWw==}
+  /@bot-whatsapp/cli@0.1.35:
+    resolution: {integrity: sha512-oKyYDO5YPslVwlFQasgA/SY1nyWjscY+fnd6J7MhKRVZuqAeweViKRaeifLQJWUy6ILjkln2DVAYjWydhxc63Q==}
     hasBin: true
     dependencies:
       picocolors: 1.0.0
     dev: false
 
-  /@bot-whatsapp/database@0.1.32:
-    resolution: {integrity: sha512-psREBTCkc2vvrT81aTwE5FRtZlB00xCBfUrrYLpPP7+BTwFQS8EUwaCw5YrIsrtKvaeQf1+cytKpYw4k7rM9Uw==}
+  /@bot-whatsapp/database@0.1.35:
+    resolution: {integrity: sha512-wxfO5wx9wqUmueUIT1+0AKyF09YbHBdt6lvNIeSZ/dRfnIya1+5n/Upwh5rkJPfTxdsqdUI9Ipmy5/lAnqEREQ==}
     dependencies:
       dotenv: 16.3.1
-      mongodb: 4.17.1
+      mongodb: 4.17.2
       mysql2: 2.3.3
       pg: 8.11.3
     transitivePeerDependencies:
@@ -630,8 +633,8 @@ packages:
       - pg-native
     dev: false
 
-  /@bot-whatsapp/portal@0.1.32:
-    resolution: {integrity: sha512-oT2CGCre9ZMa2a8AYk6+m9XYCkK5dW/9tF0R7+62y24krhmURaIKAo9iXFvtDwucXsf2c4BL/3Z4MXzg0Kxoaw==}
+  /@bot-whatsapp/portal@0.1.35:
+    resolution: {integrity: sha512-UwfZlj+pS/dDekH04pDf3HqUrdGVR06Y6a3ccQrsVgXu4KnEI5QNQQCjsC2DZpFToBKoQOjYib4N7NPI9Sj5Cw==}
     dependencies:
       kleur: 4.1.5
       polka: 0.5.2
@@ -640,16 +643,17 @@ packages:
       - supports-color
     dev: false
 
-  /@bot-whatsapp/provider@0.1.32:
-    resolution: {integrity: sha512-tMtgHx8a0vwk7f6d4UzH60bH0sM5I0owX4YEf7d3cvu4e77BspgsFbJRodYmpyBcWIDr0zlBM1dKqZqdvLOkvw==}
+  /@bot-whatsapp/provider@0.1.35:
+    resolution: {integrity: sha512-IrRKcx0NeYLtqm+mDlhJw+wBy4ziYMmgPACHXEwqFXVegcm0n74Y32Baet3lvTCwytuMigyENK3etlaz1+kiOA==}
     dependencies:
-      '@bot-whatsapp/bot': 0.1.32
+      '@bot-whatsapp/bot': 0.1.35
       '@ffmpeg-installer/ffmpeg': 1.1.0
-      axios: 1.5.0
+      axios: 1.6.5
       combine-image: 1.0.3
       fluent-ffmpeg: 2.1.2
       follow-redirects: 1.15.2
       qr-image: 3.2.0
+      queue-promise: 2.2.1
       rimraf: 3.0.2
       sharp: 0.30.7
     transitivePeerDependencies:
@@ -880,8 +884,8 @@ packages:
     resolution: {integrity: sha512-Vvn3zZrhQZkkBE8LSuW3em98c0FwgO4nxzv6OdSxPKJIEKY2bGbHn+mhGIPerzI4twdxaP8/0+06HBpwf345Lw==}
     dev: false
 
-  /@puppeteer/browsers@1.7.1:
-    resolution: {integrity: sha512-nIb8SOBgDEMFY2iS2MdnUZOg2ikcYchRrBoF+wtdjieRFKR2uGRipHY/oFLo+2N6anDualyClPzGywTHRGrLfw==}
+  /@puppeteer/browsers@1.9.1:
+    resolution: {integrity: sha512-PuvK6xZzGhKPvlx3fpfdM2kYY3P/hB1URtK8wA7XUJ6prn6pp22zvJHu48th0SGcHL9SutbPHrFuQgfXTFobWA==}
     engines: {node: '>=16.3.0'}
     hasBin: true
     dependencies:
@@ -891,7 +895,7 @@ packages:
       proxy-agent: 6.3.1
       tar-fs: 3.0.4
       unbzip2-stream: 1.4.3
-      yargs: 17.7.1
+      yargs: 17.7.2
     transitivePeerDependencies:
       - supports-color
     dev: false
@@ -1384,8 +1388,8 @@ packages:
       codec-parser: 2.4.3
     dev: false
 
-  /@whiskeysockets/baileys@6.4.1:
-    resolution: {integrity: sha512-u4eFC4fhBD6zvgzXFm/SdcFivG87CJK/xQ2H7O9wDiu3MIYrPF117lH5EQkRNqQ1Hg2jw8CgsYe7+soeA993ew==}
+  /@whiskeysockets/baileys@6.5.0:
+    resolution: {integrity: sha512-ary0RNivsrl56wnn0ta37LwVGpCDabthERCV5lHHsbhJJFfp04g6+reiQAKvxo61oYxwxKjqq33kvID+AOr++A==}
     peerDependencies:
       jimp: ^0.16.1
       link-preview-js: ^3.0.0
@@ -1404,7 +1408,7 @@ packages:
       '@adiwajshing/keyed-db': 0.2.4
       '@hapi/boom': 9.1.4
       audio-decode: 2.1.5
-      axios: 1.5.0
+      axios: 1.6.5
       cache-manager: 5.2.3
       futoin-hkdf: 1.5.3
       libphonenumber-js: 1.10.44
@@ -1625,10 +1629,10 @@ packages:
       - debug
     dev: false
 
-  /axios@1.5.0:
-    resolution: {integrity: sha512-D4DdjDo5CY50Qms0qGQTTw6Q44jl7zRwY7bthds06pUGfChBCTcQs+N743eFWGEd6pRTMd6A+I87aWyFV5wiZQ==}
+  /axios@1.6.5:
+    resolution: {integrity: sha512-Ii012v05KEVuUoFWmMW/UQv9aRIc3ZwkWDcM+h5Il8izZCtRVpDUfwpoFf7eOtajT3QiGR4yDUx7lPqHJULgbg==}
     dependencies:
-      follow-redirects: 1.15.2
+      follow-redirects: 1.15.5
       form-data: 4.0.0
       proxy-from-env: 1.1.0
     transitivePeerDependencies:
@@ -1762,13 +1766,14 @@ packages:
     resolution: {integrity: sha512-jJ0bqzaylmJtVnNgzTeSOs8DPavpbYgEr/b0YL8/2GO3xJEhInFmhKMUnEJQjZumK7KXGFhUy89PrsJWlakBVg==}
     dev: false
 
-  /chromium-bidi@0.4.26(devtools-protocol@0.0.1159816):
-    resolution: {integrity: sha512-lukBGfogAI4T0y3acc86RaacqgKQve47/8pV2c+Hr1PjcICj2K4OkL3qfX3qrqxxnd4ddurFC0WBA3VCQqYeUQ==}
+  /chromium-bidi@0.5.2(devtools-protocol@0.0.1203626):
+    resolution: {integrity: sha512-PbVOSddxgKyj+JByqavWMNqWPCoCaT6XK5Z1EFe168sxnB/BM51LnZEPXSbFcFAJv/+u2B4XNTs9uXxy4GW3cQ==}
     peerDependencies:
       devtools-protocol: '*'
     dependencies:
-      devtools-protocol: 0.0.1159816
+      devtools-protocol: 0.0.1203626
       mitt: 3.0.1
+      urlpattern-polyfill: 9.0.0
     dev: false
 
   /cliui@8.0.1:
@@ -1850,8 +1855,8 @@ packages:
     resolution: {integrity: sha512-3lqz5YjWTYnW6dlDa5TLaTCcShfar1e40rmcJVwCBJC6mWlFuj0eCHIElmG1g5kyuJ/GD+8Wn4FFCcz4gJPfaQ==}
     dev: false
 
-  /cosmiconfig@8.3.5:
-    resolution: {integrity: sha512-A5Xry3xfS96wy2qbiLkQLAg4JUrR2wvfybxj6yqLmrUfMAvhS3MZxIP2oQn0grgYIvJqzpeTEWu4vK0t+12NNw==}
+  /cosmiconfig@8.3.6:
+    resolution: {integrity: sha512-kcZ6+W5QzcJ3P1Mt+83OUv/oHFqZHIx8DuxG6eZ5RGMERoLqp4BuGjhHLYGK+Kf5XVkQvqBSmAy/nGWN3qDgEA==}
     engines: {node: '>=14'}
     peerDependencies:
       typescript: '>=4.9.5'
@@ -1999,8 +2004,8 @@ packages:
     engines: {node: '>=8'}
     dev: false
 
-  /devtools-protocol@0.0.1159816:
-    resolution: {integrity: sha512-2cZlHxC5IlgkIWe2pSDmCrDiTzbSJWywjbDDnupOImEBcG31CQgBLV8wWE+5t+C4rimcjHsbzy7CBzf9oFjboA==}
+  /devtools-protocol@0.0.1203626:
+    resolution: {integrity: sha512-nEzHZteIUZfGCZtTiS1fRpC8UZmsfD1SiyPvaUNvS13dvKf666OAm8YTi0+Ca3n1nLEyu49Cy4+dPWpaHFJk9g==}
     dev: false
 
   /doctrine@2.1.0:
@@ -2193,8 +2198,8 @@ packages:
       source-map: 0.6.1
     dev: false
 
-  /eslint-config-prettier@9.0.0(eslint@8.49.0):
-    resolution: {integrity: sha512-IcJsTkJae2S35pRsRAwoCE+925rJJStOdkKnLVgtE+tEpqU0EVVM7OqrwxqgptKdX29NUwC82I5pXsGFIgSevw==}
+  /eslint-config-prettier@9.1.0(eslint@8.49.0):
+    resolution: {integrity: sha512-NSWl5BFQWEPi1j4TjVNItzYV7dZXZ+wP6I6ZhrBGpChQhZRUaElihE9uRRkcbRnNb76UMKDF3r+WTmNcGPKsqw==}
     hasBin: true
     peerDependencies:
       eslint: '>=7.0.0'
@@ -2620,6 +2625,16 @@ packages:
 
   /follow-redirects@1.15.2:
     resolution: {integrity: sha512-VQLG33o04KaQ8uYi2tVNbdrWp1QWxNNea+nmIB4EVM28v0hmP17z7aG1+wAkNzVq4KeXTq3221ye5qTJP91JwA==}
+    engines: {node: '>=4.0'}
+    peerDependencies:
+      debug: '*'
+    peerDependenciesMeta:
+      debug:
+        optional: true
+    dev: false
+
+  /follow-redirects@1.15.5:
+    resolution: {integrity: sha512-vSFWUON1B+yAw1VN4xMfxgn5fTUiaOzAJCKBwIIgT/+7CuGy9+r+5gITvP62j3RmaD5Ph65UaERdOSRGUzZtgw==}
     engines: {node: '>=4.0'}
     peerDependencies:
       debug: '*'
@@ -3475,8 +3490,8 @@ packages:
       whatwg-url: 11.0.0
     dev: false
 
-  /mongodb@4.17.1:
-    resolution: {integrity: sha512-MBuyYiPUPRTqfH2dV0ya4dcr2E5N52ocBuZ8Sgg/M030nGF78v855B3Z27mZJnp8PxjnUquEnAtjOsphgMZOlQ==}
+  /mongodb@4.17.2:
+    resolution: {integrity: sha512-mLV7SEiov2LHleRJPMPrK2PMyhXFZt2UQLC4VD4pnth3jMjYKHhtqfwwkkvS/NXuo/Fp3vbhaNcXrIDaLRb9Tg==}
     engines: {node: '>=12.9.0'}
     dependencies:
       bson: 4.7.2
@@ -4132,16 +4147,16 @@ packages:
     resolution: {integrity: sha512-rRV+zQD8tVFys26lAGR9WUuS4iUAngJScM+ZRSKtvl5tKeZ2t5bvdNFdNHBW9FWR4guGHlgmsZ1G7BSm2wTbuA==}
     engines: {node: '>=6'}
 
-  /puppeteer-core@21.2.1:
-    resolution: {integrity: sha512-+I8EjpWFeeFKScpQiTEnC4jGve2Wr4eA9qUMoa8S317DJPm9h7wzrT4YednZK2TQZMyPtPQ2Disb/Tg02+4Naw==}
-    engines: {node: '>=16.3.0'}
+  /puppeteer-core@21.7.0:
+    resolution: {integrity: sha512-elPYPozrgiM3phSy7VDUJCVWQ07SPnOm78fpSaaSNFoQx5sur/MqhTSro9Wz8lOEjqCykGC6WRkwxDgmqcy1dQ==}
+    engines: {node: '>=16.13.2'}
     dependencies:
-      '@puppeteer/browsers': 1.7.1
-      chromium-bidi: 0.4.26(devtools-protocol@0.0.1159816)
+      '@puppeteer/browsers': 1.9.1
+      chromium-bidi: 0.5.2(devtools-protocol@0.0.1203626)
       cross-fetch: 4.0.0
       debug: 4.3.4
-      devtools-protocol: 0.0.1159816
-      ws: 8.14.1
+      devtools-protocol: 0.0.1203626
+      ws: 8.16.0
     transitivePeerDependencies:
       - bufferutil
       - encoding
@@ -4149,14 +4164,15 @@ packages:
       - utf-8-validate
     dev: false
 
-  /puppeteer@21.2.1:
-    resolution: {integrity: sha512-bgY/lYBH3rR+m5EP1FxzY2MRMrau7Pyq+N5YlspA63sF+cBkUiTn5WZXwXm7mEHwkkOSVi5LiS74T5QIgrSklg==}
-    engines: {node: '>=16.3.0'}
+  /puppeteer@21.7.0:
+    resolution: {integrity: sha512-Yy+UUy0b9siJezbhHO/heYUoZQUwyqDK1yOQgblTt0l97tspvDVFkcW9toBlnSvSfkDmMI3Dx9cZL6R8bDArHA==}
+    engines: {node: '>=16.13.2'}
+    hasBin: true
     requiresBuild: true
     dependencies:
-      '@puppeteer/browsers': 1.7.1
-      cosmiconfig: 8.3.5
-      puppeteer-core: 21.2.1
+      '@puppeteer/browsers': 1.9.1
+      cosmiconfig: 8.3.6
+      puppeteer-core: 21.7.0
     transitivePeerDependencies:
       - bufferutil
       - encoding
@@ -4187,6 +4203,11 @@ packages:
   /queue-microtask@1.2.3:
     resolution: {integrity: sha512-NuaNSa6flKT5JaSYQzJok04JzTL1CA6aGhv5rfLW3PgqA+M2ChpZQnAC8h8i4ZFkBS8X5RqkDBHA7r4hej3K9A==}
     dev: true
+
+  /queue-promise@2.2.1:
+    resolution: {integrity: sha512-C3eyRwLF9m6dPV4MtqMVFX+Xmc7keZ9Ievm3jJ/wWM5t3uVbFnGsJXwpYzZ4LaIEcX9bss/mdaKzyrO6xheRuA==}
+    engines: {node: '>=8.12.0'}
+    dev: false
 
   /queue-tick@1.0.1:
     resolution: {integrity: sha512-kJt5qhMxoszgU/62PLP1CJytzd2NKetjSRnyuj31fDd3Rlcz3fzlFdFLD1SItunPwyqEOkca6GbV612BWfaBag==}
@@ -4948,6 +4969,10 @@ packages:
       ip-regex: 1.0.3
     dev: false
 
+  /urlpattern-polyfill@9.0.0:
+    resolution: {integrity: sha512-WHN8KDQblxd32odxeIgo83rdVDE2bvdkb86it7bMhYZwWKJz0+O0RK/eZiHYnM+zgt/U7hAHOlCQGfjjvSkw2g==}
+    dev: false
+
   /userhome@1.0.0:
     resolution: {integrity: sha512-ayFKY3H+Pwfy4W98yPdtH1VqH4psDeyW8lYYFzfecR9d6hqLpqhecktvYR3SEEXt7vG0S1JEpciI3g94pMErig==}
     engines: {node: '>= 0.8.0'}
@@ -5115,6 +5140,19 @@ packages:
         optional: true
     dev: false
 
+  /ws@8.16.0:
+    resolution: {integrity: sha512-HS0c//TP7Ina87TfiPUz1rQzMhHrl/SG2guqRcTOIUYD2q8uhUdNHZYJUaQ8aTGPzCh+c6oawMKW35nFl1dxyQ==}
+    engines: {node: '>=10.0.0'}
+    peerDependencies:
+      bufferutil: ^4.0.1
+      utf-8-validate: '>=5.0.2'
+    peerDependenciesMeta:
+      bufferutil:
+        optional: true
+      utf-8-validate:
+        optional: true
+    dev: false
+
   /xdg-basedir@4.0.0:
     resolution: {integrity: sha512-PSNhEJDejZYV7h50BohL09Er9VaIefr2LMAf3OEmpCkjOi34eYyQYAXUTjEQtZJTKcF0E2UKTh+osDLsgNim9Q==}
     engines: {node: '>=8'}
@@ -5164,8 +5202,8 @@ packages:
     engines: {node: '>=12'}
     dev: false
 
-  /yargs@17.7.1:
-    resolution: {integrity: sha512-cwiTb08Xuv5fqF4AovYacTFNxk62th7LKJ6BL9IGUpTJrWoU7/7WdQGTP2SjKf1dUNBGzDd28p/Yfs/GI6JrLw==}
+  /yargs@17.7.2:
+    resolution: {integrity: sha512-7dSzzRQ++CKnNI/krKnYRV7JKKPUXMEh61soaHKg9mrWEhzFWhFnxPxGl+69cD1Ou63C13NUPCnmIcrvqCuM6w==}
     engines: {node: '>=12'}
     dependencies:
       cliui: 8.0.1

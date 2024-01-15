@@ -1,6 +1,6 @@
 const Cookie1 = {
   name: 'clientinscrito',
-  value: '71744282%23384',
+  value: process.env.CLIENTE_INSCRITO,
   domain: '.deltron.com.pe', // Dominio de la cookie
   path: '/', // Ruta de la cookie
   expires: Date.now() + 1000 * 60 * 60 * 24, // Tiempo de expiración en milisegundos (1 día en este ejemplo)
@@ -10,8 +10,7 @@ const Cookie1 = {
 
 const Cookie2 = {
   name: 'nivelmagic',
-  value:
-    '%25118%253F%252B%253F%25FB%25A3%25F7%25FDF%25F3%25A1L%25BA%25FEY%255C%25C1%25880z%25C0%2528%25A4P%2529%2512%259E%25FB%25A1-%2597R%25DE%25C4P%2511%2587%25BB%2512%25A9',
+  value: process.env.NIVEL_MAGICO,
   domain: '.deltron.com.pe', // Dominio de la cookie
   path: '/', // Ruta de la cookie
   expires: Date.now() + 1000 * 60 * 60 * 24, // Tiempo de expiración en milisegundos (1 día en este ejemplo)
@@ -20,7 +19,7 @@ const Cookie2 = {
 };
 const Cookie3 = {
   name: 'deltronlogin',
-  value: '71744282',
+  value: process.env.DELTRON_LOGIN,
   domain: '.deltron.com.pe', // Dominio de la cookie
   path: '/', // Ruta de la cookie
   expires: Date.now() + 1000 * 60 * 60 * 24, // Tiempo de expiración en milisegundos (1 día en este ejemplo)
